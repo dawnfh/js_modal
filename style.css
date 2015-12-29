@@ -1,0 +1,73 @@
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+#mybut {
+    padding: 15px 25px;
+    font-size: 15px;
+    color: #fdfbe7;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #89123c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#mybut:hover {
+    background-color: #d8b33e;
+}
+
+#mybut:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY (4px);
+}
+
+#modal {
+    display: none; /* display must me hidden */
+    position: fixed; 
+    z-index: 1; /* display on top */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* scroll option*/
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Lightbox/Modal pop-up */
+.content {
+    background-color: #89123c;
+    font-size: 45px;
+    color: #d8b33e;
+    margin: 15% auto; /* from top & centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+
+/* To close modal */
+.exit {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exit:hover{
+    background-color: #d8b33e;
+}
+
+.exit:focus {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;  
+}
+	
